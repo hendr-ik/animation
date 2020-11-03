@@ -1,0 +1,35 @@
+/**
+ * GENERAL SETTINGS
+ */
+
+body {
+  background: #dcdde1;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+
+/**
+ * DEMO SETTINGS
+ */
+
+.viewport {
+  width: 400px;   /* Viewport Width */
+  height: 12.5em;   /* Viewport Height */
+  margin: 2em auto;   /* Little margin */
+  background: transparent url(sprite.svg) 0 0 no-repeat;   /* Our sprite as viewport background */
+  animation: timepassing 1s steps(5) infinite; /* The Animation */
+  -moz-animation: timepassing 1s steps(5) infinite;
+  -webkit-animation: timepassing 1s steps(5) infinite;
+}
+
+@keyframes timepassing {
+  100% { background-position: 0 -1000px; }
+}
+@-moz-keyframes timepassing {
+  100% { background-position: 0 -1000px; }
+}
+@-webkit-keyframes timepassing {
+  100% { background-position: 0 -1000px; }
