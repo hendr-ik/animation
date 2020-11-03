@@ -16,20 +16,20 @@ body {
  */
 
 .viewport {
-  width: 400px;   /* Viewport Width */
-  height: 12.5em;   /* Viewport Height */
+  width: 150px;   /* Viewport Width */
+  height: 9.375em;   /* Viewport Height */
   margin: 2em auto;   /* Little margin */
   background: transparent url(sprite.svg) 0 0 no-repeat;   /* Our sprite as viewport background */
-  animation: timepassing 1s steps(5) infinite; /* The Animation */
-  -moz-animation: timepassing 1s steps(5) infinite;
-  -webkit-animation: timepassing 1s steps(5) infinite;
+  animation: timepassing 1s steps(10) infinite; /* The Animation */
+  -moz-animation: timepassing 1s steps(10) infinite;
+  -webkit-animation: timepassing 1s steps(10) infinite;
 }
 
 @keyframes timepassing {
-  100% { background-position: 0 -1000px; }
+  100% { background-position: 0 -1500px; }
 }
 @-moz-keyframes timepassing {
-  100% { background-position: 0 -1000px; }
+  100% { background-position: 0 -1500px; }
 }
 @-webkit-keyframes timepassing {
-  100% { background-position: 0 -1000px; }
+  100% { background-position: 0 -1500px; }
