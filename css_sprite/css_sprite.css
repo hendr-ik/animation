@@ -20,9 +20,9 @@ body {
   height: 9.375em;   /* Viewport Height */
   margin: 2em auto;   /* Little margin */
   background: transparent url(sprite.svg) 0 0 no-repeat;   /* Our sprite as viewport background */
-  animation: timepassing 1s steps(10) infinite; /* The Animation */
-  -moz-animation: timepassing 1s steps(10) infinite;
-  -webkit-animation: timepassing 1s steps(10) infinite;
+  animation: timepassing 0.8s steps(10) infinite; /* The Animation */
+  -moz-animation: timepassing 0.8s steps(10) infinite;
+  -webkit-animation: timepassing 0.8s steps(10) infinite;
 }
 
 @keyframes timepassing {
